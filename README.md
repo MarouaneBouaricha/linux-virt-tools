@@ -7,6 +7,10 @@ Linux Virtualization Scripts Tools
 ```shell
 create_bridge bridge1 br1
 ```
+or
+```shell
+create_end_host host1 eth1 '192.168.0.1/24' bridge1 br1
+```
 ## Emulate network interfaces (via veth devices)
 ### Create two hosts connected to the br1 bridge
 ```shell
